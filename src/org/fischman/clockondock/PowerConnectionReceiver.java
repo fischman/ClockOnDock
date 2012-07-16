@@ -9,8 +9,6 @@ import android.content.Intent;
 public class PowerConnectionReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) { 
-    	UiModeManager modeManager = (UiModeManager)context.getSystemService(Context.UI_MODE_SERVICE);
-    	modeManager.setNightMode(UiModeManager.MODE_NIGHT_YES);
     	Intent clockIntent = context.getPackageManager().getLaunchIntentForPackage("com.google.android.deskclock");  // JB on GN.
     	if (clockIntent == null)
     		clockIntent = context.getPackageManager().getLaunchIntentForPackage("com.android.deskclock");  // Pre-JB?  Definitely for emulator.
