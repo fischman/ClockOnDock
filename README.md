@@ -1,6 +1,11 @@
 ClockOnDock - automatically launch the Android clock when the phone is charging.
 ===========
 
+> **NOTE**: ClockOnDock is obsoleted by Android 4.2, where you can simply say
+> `Settings -> Display -> Daydream -> WHEN TO DAYDREAM -> While charging`
+> (after making sure the `Daydream` setting is set to `Clock`).
+> I'm extremely unlikely to do any work to ClockOnDock now that the functionality is included in stock Android.
+
 There are no UI, settings, or permissions required.
 Simply install the .apk and watch the clock get launched whenever the device is plugged in (AC or USB).
 
